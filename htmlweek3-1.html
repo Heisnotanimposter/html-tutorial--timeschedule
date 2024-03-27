@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>정보 입력하기</title>
+</head>
+
+<body>
+
+<!do not use get function in the login page>
+<!use post function instead>
+
+<form name = "input" action = "submit.html" method = "get">
+  Title:
+  <input type = "radio" name = "Gender" value = "Mr">Mr
+  <input type = "radio" name = "Gender" value = "Mrs">Mrs
+  <input type = "radio" name = "Gender" value = "Miss">Miss
+  <br>
+
+  Firstname:
+  <form action = "input.html" method="post">
+  <input type= "text" name= "name" placeholder="First_name" required><br>
+
+  Lastname:
+  <form action = "input.html" method="post">
+  <input type= "text" name= "name" placeholder="Last_name" required><br>
+
+  Email:
+  <form action = "input.html" method = "post">
+  <input type = "email" name = "email" placeholder="email" required><br>
+
+  Password:
+  <form action="welcome.html" method = "post">
+  <input type = "password" name = "password" placeholder="password" required><br>
+
+  <input type = "checkbox" name = "f" value = "terms_and_condition">I agree to the
+  <a href="terms_and_conditions.html" target="_blank">terms and conditions</a><br>
+  
+
+  <input type = "submit" name = "Sign Up" value = "Sing Up">
+</form>
+
+</body>
+</html>
+
